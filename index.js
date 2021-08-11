@@ -110,7 +110,7 @@ if(message.content.startsWith(prefix + "bot_status")) {
         },
         {
             name: "Version de HackerBot",
-            value: "1.0.1"
+            value: "1.0.2"
         },
         {
             name: "Programado con:",
@@ -165,6 +165,3 @@ if(message.content.startsWith(prefix + "invite")){
 
 // Llamado al bot con su TokenSecreto
 client.login(config.token);
-
-//git push -u origin main
-//aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
