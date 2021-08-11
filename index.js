@@ -56,7 +56,7 @@ client.on('message', (message) => {
 if(message.content.startsWith(prefix + "cmds")) {
     message.channel.send({embed: {
         color: color,
-        description: "mi lista de comandos es: ```say (Exclusivo CEO), cmds, status, bot_status, ping (Exclusivo CEO), server_status, server, invite (Exclusivo CEO)```"
+        description: "mi lista de comandos es: ```say (Exclusivo CEO), cmds, status, bot_status, ping (Exclusivo CEO), server_status, servidor, invite (Exclusivo CEO)```"
     }
     });
 }
@@ -110,7 +110,7 @@ if(message.content.startsWith(prefix + "bot_status")) {
         },
         {
             name: "Version de HackerBot",
-            value: "1.0.0"
+            value: "1.0.1"
         },
         {
             name: "Programado con:",
@@ -145,7 +145,7 @@ if(message.content.startsWith(prefix + "server_status")) {
 
 }
 
-if(message.content.startsWith(prefix + "server")){
+if(message.content.startsWith(prefix + "servidor")){
     message.channel.send({embed: {
         color: color,
         description: "Recuerda que cualquier duda o sugerencia la puedes hacer en mi [servidor de soporte](https://bit.ly/3vcdM5j)"
