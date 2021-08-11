@@ -165,3 +165,5 @@ if(message.content.startsWith(prefix + "invite")){
 
 // Llamado al bot con su TokenSecreto
 client.login(config.token);
+
+//git push -u origin main
